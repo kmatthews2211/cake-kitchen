@@ -63,6 +63,11 @@ h1 {
     font-family: "Charmonman";
 }
 
+@media screen and (max-width: 833px) {
+    .mobile-wrap {
+        width: 100vw;
+    }
+  }
 
 hr.solid {
     margin: auto;
@@ -260,7 +265,7 @@ h5 {
 
 @media screen and (max-width: 833px) {
     .about-box {
-        width: 450px;
+        width: 350px;
     }
   }
 
